@@ -1,1 +1,29 @@
+body{
+    margin : 10px 30px;
+}
 
+.parent{
+    height : 350px;
+    background-color: rgba(100, 218, 9, 0.997);
+    padding: 20px;
+}
+.parent p{
+    position: relative;
+    top:250px;
+}
+.child1{
+    position : relative;
+    background-color: rgba(186, 55, 11, 0.942);
+    padding : 10px;
+    bottom : 290px;
+    width:80%;
+    margin-left:20px;
+}
+.child2{
+    position : relative;
+    background-color: rgb(246, 246, 7);
+    padding : 10px;
+    bottom : 290px;
+    width:80%;
+    margin-left:20px;
+}
